@@ -4,6 +4,25 @@
   padding: 0 20px;
   overflow: hidden; }
 
+.text-center {
+  text-align: center; }
+
+.section-title {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px; }
+
+.text-primary {
+  color: #00bbf0; }
+
+.link {
+  color: #00204a;
+  font-size: 1.1rem;
+  font-weight: 500; }
+  .link:hover {
+    color: #00bbf0; }
+
 .btn {
   display: inline-block;
   padding: 10px 40px;
@@ -13,6 +32,58 @@
   background-color: #00bbf0; }
   .btn:hover {
     opacity: 0.9; }
+
+.py-1 {
+  padding: 1rem 0; }
+
+.py-2 {
+  padding: 2rem 0; }
+
+.py-3 {
+  padding: 3rem 0; }
+
+.py-4 {
+  padding: 4rem 0; }
+
+.py-5 {
+  padding: 5rem 0; }
+
+.p-1 {
+  padding: 1rem; }
+
+.p-2 {
+  padding: 2rem; }
+
+.p-3 {
+  padding: 3rem; }
+
+.p-4 {
+  padding: 4rem; }
+
+.p-5 {
+  padding: 5rem; }
+
+.flex-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px; }
+  .flex-items div {
+    background-color: #eee;
+    padding: 2.5rem;
+    margin: 3rem 0; }
+    .flex-items div img {
+      width: 75px;
+      height: 75px; }
+    .flex-items div h3 {
+      text-transform: uppercase;
+      line-height: 2.5; }
+    .flex-items div p {
+      color: #1f1f1f;
+      font-size: 1rem;
+      font-weight: 300;
+      margin-bottom: 10px; }
 
 * {
   margin: 0;
@@ -60,8 +131,8 @@ img {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  justify-content: center;
-  gap: 20px; }
+  gap: 30px;
+  height: 70vh; }
   #hero .hero-content {
     color: #ffffff; }
     #hero .hero-content h1 {
@@ -73,5 +144,3 @@ img {
     #hero .hero-content p {
       font-size: 1rem;
       margin-bottom: 30px; }
-  #hero img {
-    width: 600px; }

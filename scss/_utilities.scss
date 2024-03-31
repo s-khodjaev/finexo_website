@@ -7,6 +7,31 @@
   overflow: hidden;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.text-primary {
+  color: $primary-color;
+}
+
+.link {
+  color: $secondary-color;
+  font-size: 1.1rem;
+  font-weight: 500;
+
+  &:hover {
+    color: $primary-color;
+  }
+}
+
 // Button
 
 .btn {
@@ -19,5 +44,71 @@
 
   &:hover {
     opacity: 0.9;
+  }
+}
+
+// Padding Y
+.py-1 {
+  padding: 1rem 0;
+}
+.py-2 {
+  padding: 2rem 0;
+}
+.py-3 {
+  padding: 3rem 0;
+}
+.py-4 {
+  padding: 4rem 0;
+}
+.py-5 {
+  padding: 5rem 0;
+}
+
+// Padding All
+.p-1 {
+  padding: 1rem;
+}
+.p-2 {
+  padding: 2rem;
+}
+.p-3 {
+  padding: 3rem;
+}
+.p-4 {
+  padding: 4rem;
+}
+.p-5 {
+  padding: 5rem;
+}
+
+// Flex Items
+.flex-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+
+  div {
+    background-color: #eee;
+    padding: 2.5rem;
+    margin: 3rem 0;
+
+    img {
+      width: 75px;
+      height: 75px;
+    }
+
+    h3 {
+      text-transform: uppercase;
+      line-height: 2.5;
+    }
+
+    p {
+      color: $text-color;
+      font-size: 1rem;
+      font-weight: 300;
+      margin-bottom: 10px;
+    }
   }
 }
