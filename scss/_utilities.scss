@@ -1,0 +1,23 @@
+// Global Utilities
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+  overflow: hidden;
+}
+
+// Button
+
+.btn {
+  display: inline-block;
+  padding: 10px 40px;
+  border: 1px solid $primary-color;
+  text-decoration: none;
+  color: $white-color;
+  background-color: $primary-color;
+
+  &:hover {
+    opacity: 0.9;
+  }
+}

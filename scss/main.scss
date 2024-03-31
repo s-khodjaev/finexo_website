@@ -1,1 +1,91 @@
+@import 'variables';
+@import 'utilities';
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $white-color;
+  font-family: $font-stack;
+  line-height: 1.5;
+}
+
+a,
+ul li {
+  color: $white-color;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+#header-home {
+  height: 100vh;
+  background: url('../img/hero-bg.png') no-repeat center center/cover;
+}
+
+// Navigation
+#main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  ul {
+    display: flex;
+
+    li {
+      padding: 20px;
+      text-transform: uppercase;
+
+      a.current,
+      a:hover {
+        color: $primary-color;
+      }
+    }
+  }
+}
+
+// Hero
+
+#hero {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+
+  .hero-content {
+    color: $white-color;
+
+    h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      line-height: 1.2;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1rem;
+      margin-bottom: 30px;
+    }
+  }
+
+  img {
+    width: 600px;
+  }
+}
