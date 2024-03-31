@@ -81,6 +81,22 @@
   padding: 5rem;
 }
 
+// Backgrounds
+.bg-primary {
+  background-color: $primary-color;
+  color: $white-color;
+}
+
+.bg-secondary {
+  background-color: $secondary-color;
+  color: $white-color;
+}
+
+.bg-light {
+  background-color: #eee;
+  color: $text-color;
+}
+
 // Flex Items
 .flex-items {
   display: flex;
@@ -90,7 +106,6 @@
   gap: 20px;
 
   div {
-    background-color: #eee;
     padding: 2.5rem;
     margin: 3rem 0;
 

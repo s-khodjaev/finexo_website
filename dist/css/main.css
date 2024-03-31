@@ -63,6 +63,18 @@
 .p-5 {
   padding: 5rem; }
 
+.bg-primary {
+  background-color: #00bbf0;
+  color: #ffffff; }
+
+.bg-secondary {
+  background-color: #00204a;
+  color: #ffffff; }
+
+.bg-light {
+  background-color: #eee;
+  color: #1f1f1f; }
+
 .flex-items {
   display: flex;
   justify-content: center;
@@ -70,7 +82,6 @@
   text-align: center;
   gap: 20px; }
   .flex-items div {
-    background-color: #eee;
     padding: 2.5rem;
     margin: 3rem 0; }
     .flex-items div img {
@@ -144,3 +155,17 @@ img {
     #hero .hero-content p {
       font-size: 1rem;
       margin-bottom: 30px; }
+
+#about .grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 30px; }
+  #about .grid-container div h3 {
+    font-size: 2rem;
+    margin-bottom: 20px; }
+  #about .grid-container div p {
+    margin-bottom: 20px;
+    font-weight: 300; }
+  #about .grid-container div .btn {
+    margin-top: 20px; }

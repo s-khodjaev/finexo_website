@@ -84,3 +84,29 @@ img {
     }
   }
 }
+
+// About
+#about {
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 30px;
+
+    div {
+      h3 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+      }
+
+      p {
+        margin-bottom: 20px;
+        font-weight: 300;
+      }
+
+      .btn {
+        margin-top: 20px;
+      }
+    }
+  }
+}
