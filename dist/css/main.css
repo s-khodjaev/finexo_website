@@ -191,3 +191,29 @@ img {
     font-weight: 300; }
   #about .grid-container div .btn {
     margin-top: 20px; }
+
+#team .teams-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+  gap: 1.5rem; }
+  #team .teams-container div {
+    background-color: #00285a;
+    padding: 20px 15px; }
+    #team .teams-container div img {
+      width: 120px;
+      border: 5px solid #fff;
+      border-radius: 50%;
+      margin-bottom: 15px; }
+    #team .teams-container div h3 {
+      color: #00bbf0;
+      line-height: 2; }
+    #team .teams-container div .social {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-align: center;
+      margin: 20px auto; }
+      #team .teams-container div .social i {
+        font-size: 1.2rem;
+        margin-right: 15px; }
