@@ -200,3 +200,88 @@ img {
     }
   }
 }
+
+// Footer
+#main-footer {
+  .footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    gap: 2rem;
+
+    h2 {
+      margin-bottom: 15px;
+    }
+
+    .address {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+
+      & > div {
+        margin: 10px 0;
+        line-height: 2;
+
+        i {
+          margin-right: 15px;
+        }
+      }
+    }
+
+    .social i {
+      margin-right: 20px;
+      font-size: 1.2rem;
+    }
+
+    .info {
+      line-height: 1.6;
+    }
+
+    .info-links ul li {
+      margin: 10px 0;
+
+      & a {
+        font-weight: 300;
+        font-size: 1rem;
+
+        &:hover {
+          color: $primary-color;
+        }
+      }
+    }
+
+    .subscribe {
+      input {
+        border: none;
+        background-color: transparent;
+        border-bottom: 1px solid #fff;
+        width: 100%;
+        padding: 10px 0 10px 0;
+      }
+
+      ::placeholder {
+        color: #fff;
+        font-size: 1rem;
+        padding-bottom: 20px;
+      }
+
+      .btn-block {
+        margin: 20px 0;
+        width: 100%;
+        text-align: center;
+        padding: 6px 14px;
+      }
+    }
+
+    .bottom-footer {
+      display: grid;
+      grid-column: 1 / span 4;
+
+      p {
+        font-size: 1.1rem;
+        margin: 20px 0;
+      }
+    }
+  }
+}
