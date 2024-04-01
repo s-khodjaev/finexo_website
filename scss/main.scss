@@ -150,3 +150,53 @@ img {
     }
   }
 }
+
+// Customers
+#customers {
+  .customers-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+
+    .box {
+      background-color: #f9f9f9;
+      box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
+      padding: 75px 25px 25px 25px;
+      position: relative;
+
+      img {
+        width: 100px;
+        border-radius: 50%;
+        position: absolute;
+        top: -40px;
+        left: 20px;
+      }
+
+      .position {
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+
+        p {
+          font-weight: 300;
+          margin-bottom: 1rem;
+        }
+
+        i {
+          font-size: 1.3rem;
+        }
+      }
+    }
+  }
+  .icon {
+    display: inline-block;
+    border: 5px solid #eee;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
+    padding: 2px 4px;
+    cursor: pointer;
+
+    i {
+      margin-right: 5px;
+    }
+  }
+}

@@ -217,3 +217,37 @@ img {
       #team .teams-container div .social i {
         font-size: 1.2rem;
         margin-right: 15px; }
+
+#customers .customers-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem; }
+  #customers .customers-container .box {
+    background-color: #f9f9f9;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
+    padding: 75px 25px 25px 25px;
+    position: relative; }
+    #customers .customers-container .box img {
+      width: 100px;
+      border-radius: 50%;
+      position: absolute;
+      top: -40px;
+      left: 20px; }
+    #customers .customers-container .box .position {
+      display: flex;
+      justify-content: space-between;
+      text-align: left; }
+      #customers .customers-container .box .position p {
+        font-weight: 300;
+        margin-bottom: 1rem; }
+      #customers .customers-container .box .position i {
+        font-size: 1.3rem; }
+
+#customers .icon {
+  display: inline-block;
+  border: 5px solid #eee;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
+  padding: 2px 4px;
+  cursor: pointer; }
+  #customers .icon i {
+    margin-right: 5px; }
