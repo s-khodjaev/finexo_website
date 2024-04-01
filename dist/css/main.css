@@ -96,6 +96,28 @@
       font-weight: 300;
       margin-bottom: 10px; }
 
+#advantages .advantages-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+  #advantages .advantages-container div {
+    margin-bottom: 2rem;
+    line-height: 1.7; }
+    #advantages .advantages-container div .img-box {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 5px solid #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin: 20px auto; }
+      #advantages .advantages-container div .img-box img {
+        width: 55px; }
+
 * {
   margin: 0;
   padding: 0;
