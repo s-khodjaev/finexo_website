@@ -285,3 +285,68 @@ img {
     }
   }
 }
+
+// Media Queries
+@media screen and (max-width: 768px) {
+  #main-nav {
+    ul {
+      display: none;
+    }
+
+    .logo {
+      font-size: 2rem;
+      text-align: center;
+      width: 100%;
+    }
+  }
+
+  #hero {
+    grid-template-columns: 1fr;
+    padding: 4rem;
+  }
+
+  #services {
+    .flex-items {
+      display: block;
+    }
+  }
+
+  #about {
+    .grid-container {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  #team {
+    .teams-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  #main-footer {
+    .footer-container {
+      grid-template-columns: 1fr;
+      align-items: center;
+      justify-items: flex-start;
+
+      .bottom-footer {
+        grid-column: 1;
+      }
+    }
+  }
+}
+
+// Smartphones
+@media screen and (max-width: 480px) {
+  #team {
+    .teams-container {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  #customers {
+    .customers-container {
+      grid-template-columns: 1fr;
+    }
+  }
+}
